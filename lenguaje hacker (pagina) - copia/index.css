@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.portada{
+ background: url("./imagenes/starss.png") ;
+
+    animation: cambiarBrillo 1s infinite;
+ 
+    width: 92.5%;
+    height: 750px;
+    text-align: center;
+    
+
+}
+
+.historia{
+    padding: 3% 9%;
+    background: url("./imagenes/starss.png");
+   
+    color: white;
+    
+    
+}
+
+.portada p{
+    color: white;
+   
+}
+
+.portada p a{text-decoration:underline;
+    color: #22ee22;
+}
+h3{  font-family: "atari";
+    color: white;
+    font-size: 25px;
+
+}
+
+h1{
+    text-align: center;
+  font-family: "atari";  
+    color: #22ee22;
+    animation: resaltante 2s infinite;
+    font-size: 100px;
+  
+}
+h2{
+    text-align: center;
+    color: #22ee22;
+    font-size: 70px;
+    font-family: "atari";
+    color: #22ee22;
+    animation: resaltante 2s infinite;
+    
+}
+    div{
+    padding: 50px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    
+}
+.con{
+    text-align: center;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("./imagenes/starss.png");
+    color: white;
+
+
+}
+
+
+.input{
+    width: 100%;
+    height: 80px;
+    border-radius: 20px;
+}
+input:focus {
+    outline: none;
+}
+
+
+.traductor{
+
+    width: 100%;
+    height: 80px;
+    border-radius: 20px;
+
+}
+
+.alfabeto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ul{display: flex;
+flex-direction: column;
+padding: 30px;
+list-style: none;}
+
+li{
+    padding-bottom: 15px;
+   
+}
+
+.img
+
+{background-image: url("./imagenes/hand.jpg");
+    width: 92.6%;
+height: 140vh;
+
+background-attachment:fixed;
+background-size: cover;
+background-position: center;
+}
+
+.barras{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+p{
+    font-size: 23px;
+    padding: 30px;
+    
+}
+.numbers {
+    background: url("./imagenes/starss.png");
+    
+    color:white;
+    padding: 5% 9%;
+}
+
+.alfabeto{padding: 3% 9%;}
+
+
+
+table{border-collapse: collapse;
+width: 100%;
+font-size: 22px;
+}
+thead{
+background-color: white;
+color: black;
+
+}
+td{padding: 10px 45px;
+    border-top: 1px solid white;
+}
+th{padding: 10px;}
+.Parrafo_tabla{padding-bottom: 50px;}
+.niveless{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.sub_container b {background: url(square-circle.svg)no-repeat;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+
+
+    
+    
+}
+
+
+
+
+.con li a{color:black;}
+.con li a:hover{
+    background-color: #22ee22;
+    color: aliceblue;
+}
+a{text-decoration: none;}
+.con li{width: 100%;
+    padding: 15px;
+ 
+    font-size: 20px;
+    
+
+
+    
+    border-top: 1px solid rgb(201, 192, 192);
+ 
+}
+.con li:hover{
+    background-color: #22ee22;
+    color: white;
+}
+
+@font-face{
+    font-family: "atari";
+    src: url("./letra/AtariSmall.ttf");
+}
+
+@keyframes resaltante {
+    0% {
+        text-shadow:  0  0 4px #22ee22;
+    }
+    50% {
+        text-shadow:  0 0 22px #22ee22;
+    }
+    100% {
+        text-shadow: 0  0 10px #22ee22;
+    }
+  }
+
+  @keyframes cambiarBrillo {
+    0%   {filter: brightness(0.5);}
+  
+    100% {filter: brightness(1);}
+}
+ 
